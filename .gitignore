@@ -1,0 +1,88 @@
+# Created by https://www.toptal.com/developers/gitignore/api/wordpress
+# Edit at https://www.toptal.com/developers/gitignore?templates=wordpress
+
+### WordPress ###
+# Core
+#
+# Note: if you want to stage/commit WP core files
+# you can delete this whole section/until Configuration.
+/wp-admin/
+/wp-content/index.php
+/wp-content/languages
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Configuration
+wp-config.php
+
+# Example themes
+/wp-content/themes/*
+!/wp-content/themes/astra
+
+# Example plugin
+/wp-content/plugins/hello.php
+
+# Uploads
+/wp-content/uploads/
+
+# htaccess
+/.htaccess
+
+# Игнорировать системные файлы Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Игнорировать файлы корзины
+$RECYCLE.BIN/
+
+# Игнорировать файлы IDE (например, Visual Studio, VS Code)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+
+# Игнорировать логи и временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Игнорировать директории кэша и сборки
+node_modules/
+dist/
+build/
+
+# Игнорировать файлы среды разработки
+.env
+.env.local
+.env.*.local
+
+# Игнорировать миниатюры изображений
+*.thumb
+
+# Игнорировать временные файлы WordPress
+wp-config.php
+wp-content/upgrade/
+wp-content/uploads/
+
+# All plugins
+# Note: If you wish to whitelist plugins,
+# uncomment the next line
+#/wp-content/plugins
+
+# All themes
+# Note: If you wish to whitelist themes,
+# uncomment the next line
+#/wp-content/themes
+
+
+# End of https://www.toptal.com/developers/gitignore/api/wordpress
